@@ -1,14 +1,15 @@
-baseurl: ''
+baseurl: 'blog-alpha'
+
+title: blog-alpha
+author: sddtc
 
 # 菜单
 menu:
   - title: 首页
     url: /
-  - title: 归类
-    url: /pages/categories.html
-  - title: 搜索
-    url: /pages/search.html
-  - title: 关于
-    url: /pages/about.html
-  - title: RSS 订阅
-    url: /static/xml/rss.xml
+  - title: 我的简历
+    url: /pages/resume.html
+  - title: 我的旅行
+    url: /pages/tour.html
+  - title: 我的宠物
+    url: /pages/pets.html
