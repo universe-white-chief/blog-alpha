@@ -1,1 +1,14 @@
-theme: jekyll-theme-slate
+baseurl: ''
+
+# 菜单
+menu:
+  - title: 首页
+    url: /
+  - title: 归类
+    url: /pages/categories.html
+  - title: 搜索
+    url: /pages/search.html
+  - title: 关于
+    url: /pages/about.html
+  - title: RSS 订阅
+    url: /static/xml/rss.xml
