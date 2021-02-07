@@ -6,10 +6,10 @@ author: sddtc
 # 菜单
 menu:
   - title: 首页
-    url: /
+    url: /blog-alpha
   - title: 我的简历
-    url: /pages/resume.html
+    url: /blog-alpha/pages/resume.html
   - title: 我的旅行
-    url: /pages/tour.html
+    url: /blog-alpha/pages/tour.html
   - title: 我的宠物
-    url: /pages/pets.html
+    url: /blog-alpha/pages/pets.html
