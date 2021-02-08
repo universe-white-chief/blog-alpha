@@ -1,6 +1,5 @@
-baseurl: ''
-
-title: blog-alpha
+# 基本设置
+title: sddtc
 author: sddtc
 
 # 菜单
@@ -9,7 +8,6 @@ menu:
     url: /blog-alpha
   - title: 我的简历
     url: /blog-alpha/pages/resume.html
-  - title: 我的旅行
-    url: /blog-alpha/pages/tour.html
-  - title: 我的宠物
-    url: /blog-alpha/pages/pets.html
+
+# 页面设置
+baseurl: ''

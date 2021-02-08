@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: resume
 title: 关于我
 ---
 
-> ☕️ in,code off
+😳 我的简历
