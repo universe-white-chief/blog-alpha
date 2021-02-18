@@ -5,9 +5,17 @@ author: sddtc
 # 菜单
 menu:
   - title: 首页
-    url: /blog-alpha
+    url: /
   - title: 我的简历
-    url: /blog-alpha/pages/resume.html
+    url: /pages/resume.html
 
 # 页面设置
-baseurl: ''
+baseurl: '/blog-alpha'
+
+# 主题
+permalink: /posts/:year/:month/:day/:title.html
+kramdown:
+  auto_ids: true
+  input: GFM
+  syntax_highlighter: rouge
+exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock']
