@@ -8,6 +8,8 @@ menu:
     url: /
   - title: 我的简历
     url: /pages/resume.html
+  - title: 相册
+    url: /pages/gallery.html
 
 # 页面设置
 baseurl: '/blog-alpha'
