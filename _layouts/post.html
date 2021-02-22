@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html -%}
+<body ondragstart="return false;">
+{% include header.html -%}
+<div class="page page-post">
+    <h1 class="title" id="{{ default.title }}">{{ default.title }}</h1>
+    {% if default.date %}
+    <div class="subtitle">{{site.author}} 于 {{ default.date | date: "%Y-%m-%d" }} 发布</div>
+    {% endif %}
+    <div class="post">
+        {{ content }}
+    </div>
+</div>
+</body>
+</html>
